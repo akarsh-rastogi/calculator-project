@@ -1,9 +1,9 @@
 let input = document.getElementById("inputbox");
 let buttons = document.querySelectorAll(".button");
 
+let string = "";
 let arr = Array.from(buttons);
 
-console.log("new line added")
 
 arr.forEach((button) => {
   button.addEventListener("click", (e) => {
